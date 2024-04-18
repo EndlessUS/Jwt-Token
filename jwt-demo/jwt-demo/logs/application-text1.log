@@ -1,0 +1,133 @@
+[INFO ] 2024-04-14 11:22:48.000 [restartedMain]  c.e.j.d.j.JwtDemoApplication - Starting JwtDemoApplication on DESKTOP-2PDH15B with PID 17424 (C:\Users\asus\Downloads\jwt-demo\jwt-demo\target\classes started by asus in C:\Users\asus\Downloads\jwt-demo\jwt-demo)
+[INFO ] 2024-04-14 11:22:48.002 [restartedMain]  c.e.j.d.j.JwtDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2024-04-14 11:22:48.054 [restartedMain]  o.s.b.d.r.ChangeableUrls - The Class-Path manifest attribute in C:\Users\asus\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/asus/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/asus/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/asus/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/asus/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/asus/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/asus/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[INFO ] 2024-04-14 11:22:48.054 [restartedMain]  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2024-04-14 11:22:48.054 [restartedMain]  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2024-04-14 11:22:49.073 [restartedMain]  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2024-04-14 11:22:49.155 [restartedMain]  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70ms. Found 1 repository interfaces.
+[INFO ] 2024-04-14 11:22:49.690 [restartedMain]  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2024-04-14 11:22:50.419 [restartedMain]  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2024-04-14 11:22:50.437 [restartedMain]  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-04-14 11:22:50.449 [restartedMain]  o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2024-04-14 11:22:50.449 [restartedMain]  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2024-04-14 11:22:51.060 [restartedMain]  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-04-14 11:22:51.060 [restartedMain]  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 3005 ms
+[INFO ] 2024-04-14 11:22:51.466 [restartedMain]  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-04-14 11:22:51.590 [restartedMain]  o.h.Version - HHH000412: Hibernate Core {5.4.6.Final}
+[INFO ] 2024-04-14 11:22:51.908 [restartedMain]  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2024-04-14 11:22:52.029 [restartedMain]  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-04-14 11:22:52.826 [restartedMain]  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-04-14 11:22:52.855 [restartedMain]  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2024-04-14 11:22:54.192 [restartedMain]  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2024-04-14 11:22:54.203 [restartedMain]  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-04-14 11:22:54.252 [restartedMain]  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[WARN ] 2024-04-14 11:22:54.801 [restartedMain]  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2024-04-14 11:22:55.021 [restartedMain]  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2024-04-14 11:22:57.515 [restartedMain]  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6d738ded-ffcf-4ab5-a3a5-f9b1c4465fcd
+
+[INFO ] 2024-04-14 11:22:57.761 [restartedMain]  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e6b2105, org.springframework.security.web.context.SecurityContextPersistenceFilter@471bec85, org.springframework.security.web.header.HeaderWriterFilter@431f3227, org.springframework.security.web.csrf.CsrfFilter@41bc236b, org.springframework.security.web.authentication.logout.LogoutFilter@327812e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@702dd693, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@46706264, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@345bfe44, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e5858cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c849fd0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2aebe47c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44bfd041, org.springframework.security.web.session.SessionManagementFilter@1fe8feb0, org.springframework.security.web.access.ExceptionTranslationFilter@536677b8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38cf2a11]
+[INFO ] 2024-04-14 11:22:58.051 [restartedMain]  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-04-14 11:22:58.141 [restartedMain]  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2024-04-14 11:22:58.143 [restartedMain]  c.e.j.d.j.JwtDemoApplication - Started JwtDemoApplication in 10.742 seconds (JVM running for 12.165)
+[INFO ] 2024-04-14 11:24:34.431 [Thread-4]  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2024-04-14 11:24:34.433 [Thread-4]  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-04-14 11:24:34.453 [Thread-4]  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-04-14 11:24:34.462 [Thread-4]  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-04-14 11:24:34.564 [restartedMain]  c.e.j.d.j.JwtDemoApplication - Starting JwtDemoApplication on DESKTOP-2PDH15B with PID 17424 (C:\Users\asus\Downloads\jwt-demo\jwt-demo\target\classes started by asus in C:\Users\asus\Downloads\jwt-demo\jwt-demo)
+[INFO ] 2024-04-14 11:24:34.564 [restartedMain]  c.e.j.d.j.JwtDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2024-04-14 11:24:34.769 [restartedMain]  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2024-04-14 11:24:34.782 [restartedMain]  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 1 repository interfaces.
+[INFO ] 2024-04-14 11:24:34.833 [restartedMain]  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[WARN ] 2024-04-14 11:24:34.858 [restartedMain]  o.a.t.u.m.Registry - The MBean registry cannot be disabled because it has already been initialised
+[INFO ] 2024-04-14 11:24:34.883 [restartedMain]  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2024-04-14 11:24:34.885 [restartedMain]  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-04-14 11:24:34.885 [restartedMain]  o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2024-04-14 11:24:34.885 [restartedMain]  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2024-04-14 11:24:34.929 [restartedMain]  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-04-14 11:24:34.929 [restartedMain]  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 362 ms
+[INFO ] 2024-04-14 11:24:34.964 [restartedMain]  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-04-14 11:24:34.972 [restartedMain]  c.z.h.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2024-04-14 11:24:34.993 [restartedMain]  c.z.h.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2024-04-14 11:24:34.994 [restartedMain]  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2024-04-14 11:24:35.066 [restartedMain]  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2024-04-14 11:24:35.066 [restartedMain]  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-04-14 11:24:35.079 [restartedMain]  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[WARN ] 2024-04-14 11:24:35.141 [restartedMain]  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2024-04-14 11:24:35.189 [restartedMain]  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2024-04-14 11:24:36.158 [restartedMain]  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 134ff4a1-e07e-41e7-9a45-0b9a845f32f7
+
+[INFO ] 2024-04-14 11:24:36.168 [restartedMain]  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54140a68, org.springframework.security.web.context.SecurityContextPersistenceFilter@33240b8a, org.springframework.security.web.header.HeaderWriterFilter@67eec1d2, org.springframework.security.web.csrf.CsrfFilter@1f94da69, org.springframework.security.web.authentication.logout.LogoutFilter@cef3821, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e5dfe52, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3964ca02, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6416bcc0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@496c79ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@746a558a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@651bfa84, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6538617e, org.springframework.security.web.session.SessionManagementFilter@a5acf3a, org.springframework.security.web.access.ExceptionTranslationFilter@44406925, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@9c73eb4]
+[INFO ] 2024-04-14 11:24:36.251 [restartedMain]  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-04-14 11:24:36.256 [restartedMain]  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2024-04-14 11:24:36.259 [restartedMain]  c.e.j.d.j.JwtDemoApplication - Started JwtDemoApplication in 1.733 seconds (JVM running for 110.28)
+[INFO ] 2024-04-14 11:24:36.262 [restartedMain]  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2024-04-14 11:25:45.391 [http-nio-8080-exec-2]  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-04-14 11:25:45.392 [http-nio-8080-exec-2]  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2024-04-14 11:25:45.405 [http-nio-8080-exec-2]  o.s.w.s.DispatcherServlet - Completed initialization in 13 ms
+[INFO ] 2024-04-14 11:26:18.810 [Thread-8]  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2024-04-14 11:26:18.813 [Thread-8]  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-04-14 11:26:18.814 [Thread-8]  c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2024-04-14 11:26:18.824 [Thread-8]  c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2024-04-14 11:26:18.962 [restartedMain]  c.e.j.d.j.JwtDemoApplication - Starting JwtDemoApplication on DESKTOP-2PDH15B with PID 17424 (C:\Users\asus\Downloads\jwt-demo\jwt-demo\target\classes started by asus in C:\Users\asus\Downloads\jwt-demo\jwt-demo)
+[INFO ] 2024-04-14 11:26:18.963 [restartedMain]  c.e.j.d.j.JwtDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2024-04-14 11:26:19.202 [restartedMain]  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2024-04-14 11:26:19.214 [restartedMain]  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 1 repository interfaces.
+[INFO ] 2024-04-14 11:26:19.259 [restartedMain]  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[WARN ] 2024-04-14 11:26:19.279 [restartedMain]  o.a.t.u.m.Registry - The MBean registry cannot be disabled because it has already been initialised
+[INFO ] 2024-04-14 11:26:19.302 [restartedMain]  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2024-04-14 11:26:19.303 [restartedMain]  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-04-14 11:26:19.303 [restartedMain]  o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2024-04-14 11:26:19.303 [restartedMain]  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2024-04-14 11:26:19.353 [restartedMain]  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-04-14 11:26:19.353 [restartedMain]  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 386 ms
+[INFO ] 2024-04-14 11:26:19.384 [restartedMain]  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-04-14 11:26:19.392 [restartedMain]  c.z.h.HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 2024-04-14 11:26:19.402 [restartedMain]  c.z.h.HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 2024-04-14 11:26:19.404 [restartedMain]  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2024-04-14 11:26:19.442 [restartedMain]  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2024-04-14 11:26:19.442 [restartedMain]  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-04-14 11:26:19.455 [restartedMain]  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[WARN ] 2024-04-14 11:26:19.482 [restartedMain]  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'passwordEncoder'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[INFO ] 2024-04-14 11:26:19.483 [restartedMain]  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-04-14 11:26:19.483 [restartedMain]  c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[INFO ] 2024-04-14 11:26:19.484 [restartedMain]  c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed.
+[INFO ] 2024-04-14 11:26:19.485 [restartedMain]  o.a.c.c.StandardService - Stopping service [Tomcat]
+[INFO ] 2024-04-14 11:26:19.493 [restartedMain]  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 2024-04-14 11:26:19.593 [restartedMain]  o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field passwordEncoder in com.example.jwt.demo.jwtdemo.service.UserService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+[INFO ] 2024-04-14 11:27:19.495 [restartedMain]  c.e.j.d.j.JwtDemoApplication - Starting JwtDemoApplication on DESKTOP-2PDH15B with PID 17424 (C:\Users\asus\Downloads\jwt-demo\jwt-demo\target\classes started by asus in C:\Users\asus\Downloads\jwt-demo\jwt-demo)
+[INFO ] 2024-04-14 11:27:19.495 [restartedMain]  c.e.j.d.j.JwtDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2024-04-14 11:27:19.669 [restartedMain]  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2024-04-14 11:27:19.678 [restartedMain]  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 1 repository interfaces.
+[INFO ] 2024-04-14 11:27:19.738 [restartedMain]  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[WARN ] 2024-04-14 11:27:19.760 [restartedMain]  o.a.t.u.m.Registry - The MBean registry cannot be disabled because it has already been initialised
+[INFO ] 2024-04-14 11:27:19.782 [restartedMain]  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2024-04-14 11:27:19.785 [restartedMain]  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-04-14 11:27:19.786 [restartedMain]  o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2024-04-14 11:27:19.786 [restartedMain]  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2024-04-14 11:27:19.826 [restartedMain]  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-04-14 11:27:19.826 [restartedMain]  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 329 ms
+[INFO ] 2024-04-14 11:27:19.863 [restartedMain]  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-04-14 11:27:19.871 [restartedMain]  c.z.h.HikariDataSource - HikariPool-4 - Starting...
